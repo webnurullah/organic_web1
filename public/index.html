@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="customize.css">
+</head>
+
+<body style="font-family: 'Libre Baskerville';">
+    <div class="body-wrapper box-border ">
+        <div class="hero-section  bg-gray-100 overflow-hidden">
+            <div class="container mx-auto py-5">
+                <header class="flex justify-between items-center px-4 md:px-8">
+                    <div class="logo">
+                        <a href=""> <img class="inline w-8 md:w-12" src="images/logo.png" alt="logo"></a>
+                        <span class="font-bold text-2xl align-middle">Organic</span>
+                    </div>
+                    <div class="menu ">
+                        <div class="nav-menu hidden md:block">
+                            <ul class="list-none flex ">
+                                <li> <a class="px-4 block" href="">Home</a> </li>
+                                <li> <a class="px-4 block" href="">Products</a> </li>
+                                <li> <a class="px-4 block" href="">Blog</a> </li>
+                                <li> <a class="px-4 block" href="">About us</a> </li>
+                                <li> <a class="px-4 block" href="">Contact</a> </li>
+                            </ul>
+                        </div>
+                        <div class="mobile-menu md:hidden">
+                            <button class="fucus:outlin-none text-3xl" type="button"><i class=" fa fa-bars" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </header>
+                <div class="hero-content text-center md:text-left md:flex items-center justify-around pt-24 md:pt-0">
+                    <div class="content">
+                        <p class='font-thin'>Healthy life with</p>
+                        <p class="font-black text-3xl pb-4">Nature Organic</p>
+                        <p class="text-xs pb-8 md:pb-3">Vegetables are the edible parts of a plant <br> that is used in cooking or can be eaten now.</p>
+                        <button class="bg-gray-500 px-4 py-2 rounded text-white">Explore Now</button>
+                    </div>
+                    <div class="pt-8 md:pt-0 md:-mr-48 md:-mb-48">
+                        <img class="md:-pr-64" src="images/hero1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #End hero section -->
+        <!-- #start welcome section -->
+        <div class="welcome-section ">
+            <div class="welcome-hader text-center py-12">
+                <img class="mx-auto pb-2" src="images/nature.png" alt="">
+                <h2 class="font-black text-lg pb-3">Welcome to Nature</h2>
+                <p class="text-sm px-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="welcome-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   pb-12">
+                <div class="food-single-box    p-4 m-4 border border-dashed border-gray-500 hover:bg-gray-600 hover:text-white rounded transition duration-500">
+                    <img class="mx-auto pb-2" src="images/nature-box-1.png" alt="">
+                    <h3 class="text-center font-black pb-1">Organic food</h3>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <div class="food-single-box   p-4 m-4 border border-dashed border-gray-500 hover:bg-gray-600 hover:text-white rounded transition duration-500">
+                    <img class="mx-auto pb-2" src="images/nature-box-1.png" alt="">
+                    <h3 class="text-center font-black pb-1">Organic food</h3>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <div class="food-single-box  p-4 m-4 border border-dashed border-gray-500 hover:bg-gray-600 hover:text-white rounded transition duration-500">
+                    <img class="mx-auto pb-2" src="images/nature-box-1.png" alt="">
+                    <h3 class="text-center font-black pb-1">Organic food</h3>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <div class="food-single-box  p-4 m-4 border border-dashed border-gray-500 hover:bg-gray-600 hover:text-white rounded transition duration-500">
+                    <img class="mx-auto pb-2" src="images/nature-box-1.png" alt="">
+                    <h3 class="text-center font-black pb-1">Organic food</h3>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- #End welcome section -->
+        <!-- #start presented section -->
+        <div class="presented-section  py-12 bg-gray-100">
+            <div class="presented-header text-center">
+                <h2 class="font-black text-lg pb-3">Proudly presented by</h2>
+                <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="presented-wrap flex justify-around flex-wrap py-24 container mx-auto">
+                <img class="m-4" src="images/product1.png" alt="">
+                <img class="m-4" src="images/product3.png" alt="">
+                <img class="m-4" src="images/product2.png" alt="">
+                <img class="m-4" src="images/product3.png" alt="">
+                <img class="m-4" src="images/product1.png" alt="">
+            </div>
+        </div>
+        <!-- #End prasented section -->
+        <!-- #Start testimonial section -->
+        <div class="testimonial-section relative overflow-hidden">
+            <img class="absolute -left-50" src="images/test-leaf-1.png" alt="">
+            <img class="absolute -right-50" src="images/test-leaf-1.png" alt="">
+
+            <div class="text-center pt-24">
+                <span class="text-6xl text-gray-500">&rdquo;</span>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-single-slider text-center">
+                    <img class="mx-auto" src="images/testimonial-1.jpg" alt="">
+                    <p class="p-2">Jone Doe</p>
+                    <p class="w-1/2 mx-auto">Thank you for all the amazing produce and products you deliver each week… you make my life so easy an bring goodness into our family eating. I’ve been roasting a lot of brussel sprouts and</p>
+                </div>
+            </div>
+            <div class="subscribe-wrap text-center py-48">
+                <h3 class="font-black">Subscribe to Our Newsletter</h3>
+                <p class="w-1/2 mx-auto py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <form class="pt-5" action="">
+                    <input class="p-2 focus:outline-none " placeholder="Enter your email address" type="email">
+                    <button class="bg-gray-500 px-4 py-2 rounded-full text-white">subscribe</button>
+                </form>
+            </div>
+        </div>
+        <!-- #END testimonial section -->
+        <!-- #start blog section -->
+        <div class="blog-section">
+            <div class="blog-header text-center py-12">
+                <img class="mx-auto pb-2" src="images/nature.png" alt="">
+                <h2 class="font-black text-lg pb-3">Read Our Blog</h2>
+                <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="blog-wrap container mx-auto pb-24 grid grid-cols-1 md:grid-cols-3">
+                <div class="single-blog mx-4 mx-lg-8 my-8  text-center ">
+                    <img class="w-full" src="images/blog-1.jpg" alt="">
+                    <h3 class="pt-4 text-gray-600">blog post one</h3>
+                    <p class="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, repellendus.</p>
+                    <a class="text-gray-500 py-2 border-b-2 border-gray-600" href="">Read more</a>
+                </div>
+                <div class="single-blog mx-4 mx-lg-8 my-8  text-center ">
+                    <img class="w-full" src="images/blog-2.jpg" alt="">
+                    <h3 class="pt-4 text-gray-600">blog post one</h3>
+                    <p class="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, repellendus.</p>
+                    <a class="text-gray-500 py-2 border-b-2 border-gray-600" href="">Read more</a>
+                </div>
+                <div class="single-blog mx-4 mx-lg-8 my-8  text-center ">
+                    <img class="w-full" src="images/blog-3.jpg" alt="">
+                    <h3 class="pt-4 text-gray-600">blog post one</h3>
+                    <p class="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, repellendus.</p>
+                    <a class="text-gray-500 py-2 border-b-2 border-gray-600" href="">Read more</a>
+                </div>
+            </div>
+        </div>
+        <!-- #ENd blog section -->
+        <!-- #start footer section -->
+        <footer class="bg-gray-600 text-white py-12">
+            <div class="inner-footer container mx-auto grid grid-cols-1 md:grid-cols-3 text-center">
+                <div class="footer-logo lg:px-4 py-4 md:py-0">
+                    <a href=""> <img class="inline w-16" src="images/logo.png" alt="logo"></a>
+                    <span class="font-bold text-2xl align-middle">Organic</span>
+                    <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptas?</p>
+                </div>
+                <div class="footer-menu py-4 md:py-0">
+                    <h3 class="pb-3">Information</h3>
+                    <ul class="list-none ">
+
+                        <li> <a class="px-4 block" href="">Home</a> </li>
+                        <li> <a class="px-4 block" href="">Products</a> </li>
+                        <li> <a class="px-4 block" href="">Blog</a> </li>
+                        <li> <a class="px-4 block" href="">About us</a> </li>
+                        <li> <a class="px-4 block" href="">Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-social-media py-4 md:py-0">
+                    <h3 class="pb-3">Follow Us</h3>
+                    <ul class="list-none flex justify-center">
+
+                        <li>
+                            <a class="inline-block border rounded-full w-10 h-10 flex justify-center items-center m-2" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li> <a class="inline-block border rounded-full w-10 h-10 flex justify-center items-center m-2" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                        <li> <a class="inline-block border rounded-full w-10 h-10 flex justify-center items-center m-2" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                        <li> <a class="inline-block border rounded-full w-10 h-10 flex justify-center items-center m-2" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- #end footer section -->
+    </div>
+    <!-- #End body Wrapper -->
+</body>
+
+</html>
